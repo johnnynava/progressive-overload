@@ -1,4 +1,5 @@
 + Work on models for database (users, exercises, templates, workout sessions, etc.)
+- Program
 
 weak points:
 + jwt!!!!!!!!!!

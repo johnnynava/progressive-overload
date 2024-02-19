@@ -1,0 +1,35 @@
+User: 
+  name: 
+  password: 
+
+Exercise:
+  associated_user: <user>(_id)
+  name:
+  previous: []
+    {
+      weight:
+      reps:
+    }
+
+Template:
+  associated_user: <user>(_id)
+  name:
+  exercises: []
+    {
+      exercise: <exercise>(_id, name)
+      sets:
+    }
+
+Session:
+  associated_user: <user>(_id)
+  name: <template>(name)
+  date: 
+  exercises: []
+    {
+      exercise: <exercise>(_id, name, previous)
+      current: []
+        {
+          weight:
+          reps:
+        }
+    }
